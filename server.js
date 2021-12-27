@@ -26,5 +26,13 @@ app.get('/nation', (req, res) => {
   });
 });
 
+app.get('/vijay', (req, res) => {
+  res.json({message: "Hello from Vijay"});
+});
+
+app.get('/nilay', (req, res) => {
+  res.json({message: "Hello from Nilay"});
+});
+
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
