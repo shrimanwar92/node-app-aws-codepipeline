@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: node.dockerfile
-    image: shrimanwar92:node-jenkins-app
+    image: shrimanwar92/node-jenkins-app:latest
     ports:
       - '3000:3000'
